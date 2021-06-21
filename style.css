@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Pixeled";
+    src: url("fonts/Pixeled.ttf") format("truetype")
+   }
+@font-face {
+    font-family: "donkey";
+    src: url("fonts/DKW.TTF") format("truetype")
+   }
+#pong-game{
+    background-image: url('fond.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+#game-menu{
+    background-image: url('fond.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+#player-2{
+    background-image: url('donkeykong\ -\ Copie.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+#player-1{
+    background-image: url('donkeykong.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+#pong-ball{
+    background-image: url('banana.gif') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+body{
+    background-image: url('back.png');
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    font-family: 'Pixeled' !important;
+}
+h1{
+    text-align: center;
+}
+#button1{
+    position: absolute;
+    right: 145px;
+    top: 50px;
+    width: 110px;
+    height: 70px;
+    border-radius: 40%;
+    background-color: rgba(0, 0, 0, 0%);
+    border: none;
+}
+#button-player-player, #button-player-cpu, #button-cpu-cpu{
+    font-weight: bold !important;
+}
